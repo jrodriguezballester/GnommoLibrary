@@ -1,0 +1,12 @@
+0000000000000000000000000000000000000000 67a55cd43d4c0699224bcd493330af59c0e82f6a Jose Rodriguez <jrodriguezballester@gmail.com> 1588054357 +0200	branch: Created from origin/Develop
+67a55cd43d4c0699224bcd493330af59c0e82f6a 8a105226c33483006ece6285088b974c44aac607 Jose Rodriguez <jrodriguezballester@gmail.com> 1588062100 +0200	commit: fix(#3).Extension archivo en BD
+8a105226c33483006ece6285088b974c44aac607 263108b1b7ff91df5e254c62cd9cc5374efa5d6b Jose Rodriguez <jrodriguezballester@gmail.com> 1588078178 +0200	merge pepe2: Fast-forward
+263108b1b7ff91df5e254c62cd9cc5374efa5d6b 7a57f3a5b223d05bcf560ed89e0e2ad54a614f34 Jose Rodriguez <jrodriguezballester@gmail.com> 1588145778 +0200	commit: fix(#5): Codificar cookies
+7a57f3a5b223d05bcf560ed89e0e2ad54a614f34 df357bc2fd39f88b9dda787b7bb3c1d76377b0fe Jose Rodriguez <jrodriguezballester@gmail.com> 1588245869 +0200	pull --tags origin Develop: Fast-forward
+df357bc2fd39f88b9dda787b7bb3c1d76377b0fe 4b88d58df11bc692dcd28236bf5332bfef731cd4 Jose Rodriguez <jrodriguezballester@gmail.com> 1588247690 +0200	pull --tags origin Develop: Fast-forward
+4b88d58df11bc692dcd28236bf5332bfef731cd4 d4ab9a19bf2530152cae55583d45085b202807df Jose Rodriguez <jrodriguezballester@gmail.com> 1588573882 +0200	merge pepe4: Fast-forward
+d4ab9a19bf2530152cae55583d45085b202807df bdc6c48fbd50e2d94a802d76af322565ada535e5 Jose Rodriguez <jrodriguezballester@gmail.com> 1588580989 +0200	commit: fix(#7).Modificar texto busqueda en navegacion
+bdc6c48fbd50e2d94a802d76af322565ada535e5 ec9f291d4e1f11eb4e15bd5e5fb554edb01e990c Jose Rodriguez <jrodriguezballester@gmail.com> 1588594699 +0200	pull: Fast-forward
+ec9f291d4e1f11eb4e15bd5e5fb554edb01e990c f88f5c16dda42b51f022213fd2d931e9b3ff8355 Jose Rodriguez <jrodriguezballester@gmail.com> 1588595050 +0200	commit (merge): funciona
+f88f5c16dda42b51f022213fd2d931e9b3ff8355 860728817c76077ef5d33e8a27146702b7473e9a Jose Rodriguez <jrodriguezballester@gmail.com> 1588595800 +0200	commit: apañado
+860728817c76077ef5d33e8a27146702b7473e9a 0d56b63d86786e991180f3c612b56c4511e40ace Jose Rodriguez <jrodriguezballester@gmail.com> 1588599542 +0200	commit: Finalizado Go

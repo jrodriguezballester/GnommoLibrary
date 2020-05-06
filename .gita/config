@@ -1,0 +1,25 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/pacomisval/Gnommo_api.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[branch "Develop"]
+	remote = origin
+	merge = refs/heads/Develop
+[branch "rafav3"]
+	remote = origin
+	merge = refs/heads/rafav3
+[branch "pepe4"]
+	remote = origin
+	merge = refs/heads/pepe4
+[branch "pepe1"]
+	remote = origin
+	merge = refs/heads/pepe1

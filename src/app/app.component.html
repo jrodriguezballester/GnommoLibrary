@@ -1,0 +1,91 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div>
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+            <img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" />
+        </a>
+        <br>
+        <a class="navbar-brand logo" href="#">{{title}}</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    </div>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav flex-row w-100">
+            <li class="nav-item ">
+                <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="libros">Libros</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="autores">Autores</a>
+            </li>
+            <li *ngIf="adminExits" class="nav-item">
+                <a class="nav-link" routerLink="addLibro">Nuevo Libro</a>
+            </li>
+            <li *ngIf="adminExits" class="nav-item">
+                <a class="nav-link" routerLink="addAutor">Nuevo Autor</a>
+            </li>
+            <!-- ********** BARRA DE BUSQUEDA ********** -->
+            <!-- <form [formGroup]="findForm">
+                <label for="filtro" class="ml-5 pt-2">Buscar por:</label>
+                <select name="filtro" (click)="cambiarBusqueda()" id="filtro" class="ml-2" formControlName="filtro">
+          <option value="autor">Autor</option>
+          <option value="libro">Libro</option>
+        </select>
+                <span action="" class="ml-5 pt-1">
+          <label for="contenido" id="textoBusqueda" class="ml-5">{{textoBusqueda}}</label>
+          <input type="text" id="contenido" class="ml-2">
+        </span>
+            </form> -->
+
+
+            <!-- ********** BARRA DE BUSQUEDA CORRECTA********** -->
+            <form [formGroup]="findForm">
+                <label for="filtro" class="ml-5 pt-2">Buscar por:</label>
+                <select name="filtro" (click)="cambiarBusqueda()" id="filtro" class="ml-2" formControlName="filtro">
+          <option value="autor">Autor</option>
+          <option value="libro">Libro</option>
+        </select>
+                <label for="contenido" id="textoBusqueda" class="ml-5">{{textoBusqueda}}</label>
+                <ng-container *ngIf="buscarXautor; then autorTemplate; else tituloTemplate"></ng-container>
+                <ng-template #autorTemplate>
+                    <!-- <input type="text" list="autores" (click)="buscar()" class="ml-2" /> -->
+                    <input type="text" list="autores" class="ml-2" />
+
+                    <datalist id="texto">
+            <option *ngFor="let autor of authors">{{autor.first_name}}&nbsp;{{autor.last_name}}</option>
+          </datalist>
+                </ng-template>
+                <ng-template #tituloTemplate>
+                    <input type="text" id="texto" class="ml-2" (keyup)="buscar()" />
+                    <input type="button" class="ml-2" id="bttBuscar" (click)="buscar()" value="Buscar">
+                </ng-template>
+
+            </form>
+
+            <!-- ********** BARRA DE BUSQUEDA CORRECTA********** -->
+
+
+            <!-- ********** LOGIN & LOGOUT ********** -->
+            <ng-container *ngIf="CukiExits; then thenTemplate; else elseTemplate"></ng-container>
+            <ng-template #thenTemplate>
+                <li class="nav-item  ml-auto px-2">
+                    <a class="nav-link" href="" (click)="logout()">Logout</a>
+                </li>
+                <li class="nav-item">
+                    <span class="nav-link ">{{currentUserName}}</span>
+                </li>
+            </ng-template>
+
+            <ng-template #elseTemplate>
+                <li class="nav-item ml-auto">
+                    <a class="nav-link  " routerLink="login">Login</a>
+                </li>
+            </ng-template>
+        </ul>
+    </div>
+</nav>
+
+<router-outlet></router-outlet>

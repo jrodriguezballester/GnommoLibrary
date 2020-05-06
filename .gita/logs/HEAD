@@ -1,0 +1,40 @@
+0000000000000000000000000000000000000000 309a4de9e3b3fcb54539a75649d5c546ee6c3051 Jose Rodriguez <jrodriguezballester@gmail.com> 1588054139 +0200	clone: from https://github.com/pacomisval/Gnommo_api.git
+309a4de9e3b3fcb54539a75649d5c546ee6c3051 8f4f9a7277f69da78fb18cffec6e5f7e4ec83efe Jose Rodriguez <jrodriguezballester@gmail.com> 1588054349 +0200	commit: clone
+8f4f9a7277f69da78fb18cffec6e5f7e4ec83efe 67a55cd43d4c0699224bcd493330af59c0e82f6a Jose Rodriguez <jrodriguezballester@gmail.com> 1588054357 +0200	checkout: moving from master to Develop
+67a55cd43d4c0699224bcd493330af59c0e82f6a 8a105226c33483006ece6285088b974c44aac607 Jose Rodriguez <jrodriguezballester@gmail.com> 1588062100 +0200	commit: fix(#3).Extension archivo en BD
+8a105226c33483006ece6285088b974c44aac607 8a105226c33483006ece6285088b974c44aac607 Jose Rodriguez <jrodriguezballester@gmail.com> 1588062263 +0200	checkout: moving from Develop to pepe2
+8a105226c33483006ece6285088b974c44aac607 263108b1b7ff91df5e254c62cd9cc5374efa5d6b Jose Rodriguez <jrodriguezballester@gmail.com> 1588078081 +0200	commit: imagen en editar libro
+263108b1b7ff91df5e254c62cd9cc5374efa5d6b 8a105226c33483006ece6285088b974c44aac607 Jose Rodriguez <jrodriguezballester@gmail.com> 1588078141 +0200	checkout: moving from pepe2 to Develop
+8a105226c33483006ece6285088b974c44aac607 263108b1b7ff91df5e254c62cd9cc5374efa5d6b Jose Rodriguez <jrodriguezballester@gmail.com> 1588078178 +0200	merge pepe2: Fast-forward
+263108b1b7ff91df5e254c62cd9cc5374efa5d6b 263108b1b7ff91df5e254c62cd9cc5374efa5d6b Jose Rodriguez <jrodriguezballester@gmail.com> 1588078804 +0200	checkout: moving from Develop to pepe2
+263108b1b7ff91df5e254c62cd9cc5374efa5d6b 263108b1b7ff91df5e254c62cd9cc5374efa5d6b Jose Rodriguez <jrodriguezballester@gmail.com> 1588078839 +0200	checkout: moving from pepe2 to Develop
+263108b1b7ff91df5e254c62cd9cc5374efa5d6b 7a57f3a5b223d05bcf560ed89e0e2ad54a614f34 Jose Rodriguez <jrodriguezballester@gmail.com> 1588145778 +0200	commit: fix(#5): Codificar cookies
+7a57f3a5b223d05bcf560ed89e0e2ad54a614f34 7a57f3a5b223d05bcf560ed89e0e2ad54a614f34 Jose Rodriguez <jrodriguezballester@gmail.com> 1588226870 +0200	checkout: moving from Develop to pepe3
+7a57f3a5b223d05bcf560ed89e0e2ad54a614f34 0a93f13c12dc387b2a49ac6c0562d141cd6b414e Jose Rodriguez <jrodriguezballester@gmail.com> 1588228941 +0200	checkout: moving from pepe3 to rafav3
+0a93f13c12dc387b2a49ac6c0562d141cd6b414e 7a57f3a5b223d05bcf560ed89e0e2ad54a614f34 Jose Rodriguez <jrodriguezballester@gmail.com> 1588245754 +0200	checkout: moving from rafav3 to Develop
+7a57f3a5b223d05bcf560ed89e0e2ad54a614f34 df357bc2fd39f88b9dda787b7bb3c1d76377b0fe Jose Rodriguez <jrodriguezballester@gmail.com> 1588245869 +0200	pull --tags origin Develop: Fast-forward
+df357bc2fd39f88b9dda787b7bb3c1d76377b0fe 4b88d58df11bc692dcd28236bf5332bfef731cd4 Jose Rodriguez <jrodriguezballester@gmail.com> 1588247690 +0200	pull --tags origin Develop: Fast-forward
+4b88d58df11bc692dcd28236bf5332bfef731cd4 4b88d58df11bc692dcd28236bf5332bfef731cd4 Jose Rodriguez <jrodriguezballester@gmail.com> 1588323648 +0200	checkout: moving from Develop to pepe4
+4b88d58df11bc692dcd28236bf5332bfef731cd4 d4ab9a19bf2530152cae55583d45085b202807df Jose Rodriguez <jrodriguezballester@gmail.com> 1588573027 +0200	commit: Barra de navegacion
+d4ab9a19bf2530152cae55583d45085b202807df 4b88d58df11bc692dcd28236bf5332bfef731cd4 Jose Rodriguez <jrodriguezballester@gmail.com> 1588573851 +0200	checkout: moving from pepe4 to Develop
+4b88d58df11bc692dcd28236bf5332bfef731cd4 d4ab9a19bf2530152cae55583d45085b202807df Jose Rodriguez <jrodriguezballester@gmail.com> 1588573882 +0200	merge pepe4: Fast-forward
+d4ab9a19bf2530152cae55583d45085b202807df bdc6c48fbd50e2d94a802d76af322565ada535e5 Jose Rodriguez <jrodriguezballester@gmail.com> 1588580989 +0200	commit: fix(#7).Modificar texto busqueda en navegacion
+bdc6c48fbd50e2d94a802d76af322565ada535e5 bdc6c48fbd50e2d94a802d76af322565ada535e5 Jose Rodriguez <jrodriguezballester@gmail.com> 1588581542 +0200	checkout: moving from Develop to pepe1
+bdc6c48fbd50e2d94a802d76af322565ada535e5 00bfcbd68753af3031d00ff4457ae061280f707a Jose Rodriguez <jrodriguezballester@gmail.com> 1588593369 +0200	commit: Finalizada
+00bfcbd68753af3031d00ff4457ae061280f707a 571ea902cd6456990c7b765ef20faf480b33813a Jose Rodriguez <jrodriguezballester@gmail.com> 1588593414 +0200	commit: Funciona
+571ea902cd6456990c7b765ef20faf480b33813a cb8c72a757b276682a0513d44300ce4051eb5f54 Jose Rodriguez <jrodriguezballester@gmail.com> 1588594659 +0200	commit: funcionando2
+cb8c72a757b276682a0513d44300ce4051eb5f54 bdc6c48fbd50e2d94a802d76af322565ada535e5 Jose Rodriguez <jrodriguezballester@gmail.com> 1588594685 +0200	checkout: moving from pepe1 to Develop
+bdc6c48fbd50e2d94a802d76af322565ada535e5 ec9f291d4e1f11eb4e15bd5e5fb554edb01e990c Jose Rodriguez <jrodriguezballester@gmail.com> 1588594699 +0200	pull: Fast-forward
+ec9f291d4e1f11eb4e15bd5e5fb554edb01e990c f88f5c16dda42b51f022213fd2d931e9b3ff8355 Jose Rodriguez <jrodriguezballester@gmail.com> 1588595050 +0200	commit (merge): funciona
+f88f5c16dda42b51f022213fd2d931e9b3ff8355 860728817c76077ef5d33e8a27146702b7473e9a Jose Rodriguez <jrodriguezballester@gmail.com> 1588595800 +0200	commit: apañado
+860728817c76077ef5d33e8a27146702b7473e9a 0d56b63d86786e991180f3c612b56c4511e40ace Jose Rodriguez <jrodriguezballester@gmail.com> 1588599542 +0200	commit: Finalizado Go
+0d56b63d86786e991180f3c612b56c4511e40ace 0d56b63d86786e991180f3c612b56c4511e40ace Jose Rodriguez <jrodriguezballester@gmail.com> 1588659035 +0200	checkout: moving from Develop to Develop
+0d56b63d86786e991180f3c612b56c4511e40ace 0d56b63d86786e991180f3c612b56c4511e40ace git stash <jrodriguezballester@gmail.com> 1588659146 +0200	reset: moving to HEAD
+0d56b63d86786e991180f3c612b56c4511e40ace cb8c72a757b276682a0513d44300ce4051eb5f54 Jose Rodriguez <jrodriguezballester@gmail.com> 1588659160 +0200	checkout: moving from Develop to pepe1
+cb8c72a757b276682a0513d44300ce4051eb5f54 cb8c72a757b276682a0513d44300ce4051eb5f54 git stash <jrodriguezballester@gmail.com> 1588660089 +0200	reset: moving to HEAD
+cb8c72a757b276682a0513d44300ce4051eb5f54 bdc6c48fbd50e2d94a802d76af322565ada535e5 Jose Rodriguez <jrodriguezballester@gmail.com> 1588660190 +0200	checkout: moving from pepe1 to bdc6c48fbd50e2d94a802d76af322565ada535e5
+bdc6c48fbd50e2d94a802d76af322565ada535e5 f88f5c16dda42b51f022213fd2d931e9b3ff8355 Jose Rodriguez <jrodriguezballester@gmail.com> 1588660694 +0200	checkout: moving from bdc6c48fbd50e2d94a802d76af322565ada535e5 to f88f5c16dda42b51f022213fd2d931e9b3ff8355
+f88f5c16dda42b51f022213fd2d931e9b3ff8355 bdc6c48fbd50e2d94a802d76af322565ada535e5 Jose Rodriguez <jrodriguezballester@gmail.com> 1588661076 +0200	checkout: moving from f88f5c16dda42b51f022213fd2d931e9b3ff8355 to bdc6c48fbd50e2d94a802d76af322565ada535e5
+bdc6c48fbd50e2d94a802d76af322565ada535e5 2deb48e32943aa4f9874d23d1f0f5d9301718155 Jose Rodriguez <jrodriguezballester@gmail.com> 1588661540 +0200	commit: comentada barra busqueda
+2deb48e32943aa4f9874d23d1f0f5d9301718155 0d56b63d86786e991180f3c612b56c4511e40ace Jose Rodriguez <jrodriguezballester@gmail.com> 1588661754 +0200	checkout: moving from 2deb48e32943aa4f9874d23d1f0f5d9301718155 to Develop
+0d56b63d86786e991180f3c612b56c4511e40ace bdc6c48fbd50e2d94a802d76af322565ada535e5 Jose Rodriguez <jrodriguezballester@gmail.com> 1588662170 +0200	checkout: moving from Develop to bdc6c48fbd50e2d94a802d76af322565ada535e5
